@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7ccc8"
+    android:orientation="vertical"
+    tools:context="dengmin.sj35.s1.studyjams.cn.welcometolianshan.LianShanActivity">
+
+    <TextView
+        style="@style/MyTitleSize"
+        android:text="@string/welcome"
+        android:textSize="45sp"/>
+
+    <ImageView
+        style="@style/MyImageView"
+        android:src="@drawable/lianshanxiancheng"/>
+
+    <LinearLayout
+        style="@style/MyLinearLayout">
+
+        <TextView
+            android:id="@+id/introduce"
+            style="@style/MyItemText"
+            android:text="@string/introduce_name"
+            />
+
+        <TextView
+            android:id="@+id/travel"
+            style="@style/MyItemText"
+            android:text="@string/travel_name"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout">
+
+        <TextView
+            android:id="@+id/custom"
+            style="@style/MyItemText"
+            android:text="@string/custom_name"/>
+
+        <TextView
+            android:id="@+id/cate"
+            style="@style/MyItemText"
+            android:text="@string/cate_name"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout">
+
+        <TextView
+            android:id="@+id/traffic"
+            style="@style/MyItemText"
+            android:text="@string/traffic_name"
+            />
+
+        <TextView
+            android:id="@+id/accommodation"
+            style="@style/MyItemText"
+            android:text="@string/accommodation_name"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

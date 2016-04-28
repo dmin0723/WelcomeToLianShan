@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/oujiatitian"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/oujiatitian_introduce"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/tt1"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/tt2"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/tt3"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/tt4"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/tt5"/>
+
+    </LinearLayout>
+</ScrollView>

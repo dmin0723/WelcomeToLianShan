@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffccbc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/water"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/water_introduce_one"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/xsj1"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/xsj2"/>
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/water_introduce_two"/>
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/xsj3"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.studyjams.s1.sj35.dengmin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LianShanActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IntroduceActivity">
+        </activity>
+        <activity android:name=".TrafficeActivity">
+        </activity>
+
+        <!-- Travel-->
+        <activity android:name=".travel.TravelActivity">
+        </activity>
+        <activity android:name=".travel.TravelJinZiShanActivity">
+        </activity>
+        <activity android:name=".travel.TravelDaXuShanActivity">
+        </activity>
+        <activity android:name=".travel.TravelYingYangGuanActivity">
+        </activity>
+        <activity android:name=".travel.TravelOuJiaTiTianActivity">
+        </activity>
+
+        <!-- Custom-->
+        <activity android:name=".custom.CustomActivity">
+        </activity>
+        <activity android:name=".custom.CustomYaoWedding">
+        </activity>
+        <activity android:name=".custom.CustomZhuangWedding">
+        </activity>
+        <activity android:name=".custom.CustomThePanwangFestivalActivity">
+        </activity>
+        <activity android:name=".custom.CustomTheNiuwangFestivalActivity">
+        </activity>
+        <activity android:name=".custom.CustomTheWaterFestivalActivity">
+        </activity>
+        <activity android:name=".custom.CustomTheFireLionFestivalActivity">
+        </activity>
+
+        <activity android:name=".CateActivity">
+        </activity>
+        <activity android:name=".AccommodationActivity">
+        </activity>
+
+    </application>
+
+</manifest>

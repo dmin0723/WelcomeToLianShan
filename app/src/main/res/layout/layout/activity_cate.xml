@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/aici_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/aici_1"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate1"/>
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/aici_2"
+            />
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/datangci_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/datangci"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate2"/>
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/baici_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/baici"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate3"/>
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/hehuayu_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/hehuayu"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate4"/>
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/wusefan_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/wusefan"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate5"/>
+
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/muomichuang_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/muomichuang"
+            />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate6"/>
+
+
+    </LinearLayout>
+</ScrollView>

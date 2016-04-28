@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e0e0e0">
+
+    <ImageView
+        android:id="@+id/ls_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lsmap"/>
+
+    <TextView
+        android:id="@+id/map_title"
+        style="@style/MyTitleSize"
+        android:layout_below="@+id/ls_image_view"
+        android:text="@string/traffic_title"
+        />
+
+    <TextView
+        android:id="@+id/traffic_introduce"
+        style="@style/MyTextSize"
+        android:layout_below="@+id/map_title"
+        android:layout_marginTop="8dp"
+        android:text="@string/traffic_introduce"
+        />
+</RelativeLayout>

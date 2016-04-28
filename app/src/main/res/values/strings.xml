@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">连山旅游</string>
+    <string name="welcome">欢迎来连山做客！</string>
+    <string name="introduce_name">简介概况</string>
+    <string name="travel_name">特色旅游</string>
+    <string name="custom_name">民俗风情</string>
+    <string name="cate_name">特产美食</string>
+    <string name="traffic_name">交通指南</string>
+    <string name="accommodation_name">住宿指南</string>
+    <string name="accommodation">住宿口碑前三的酒店</string>
+
+    <!-- Accomodation -->
+    <string name="content">如有疑问，在这里写下，点击复选框，发邮件给我!</string>
+    <string name="sex">性别：</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="check_box">是否选择发邮件？</string>
+    <string name="send_email">确认</string>
+
+
+    <string name="all_introduce_name">连山地图</string>
+    <string name="all_introduce_name_one">\t\t\t\t本称[连山]。又称[广东九寨沟]，位于广东的西北部，公元506年建县，
+        至今已有1490多年。连山县历史上曾称为广德、广泽、程山，1962年正式命名为连山壮族瑶族自治县。
+　　</string>
+      <string name="all_introduce_name_two">\t\t\t\t连山总面积1265平方公里，是一个“九山半水半分田”的山区县。她北邻湖南江华县，西接广西贺州市，
+        可谓“一水流三江，一脚踏三省”。县内山峦叠嶂，不少山峰在海拔1000米以上，最高的大雾山，
+        海拔达1659.3米，被称为“广东岭南屋脊”。</string>
+      <string name="all_introduce_name_three">\t\t\t\t"连山"，历来以山著称，以水取胜，以雾扬名，素有"神仙洞""桃源洞"之称。
+        "连山，山连山"，全县面积1265平方公里，山地约占了九成，素有"九山半水半分田"之称,
+        连山北接湖南省江华瑶族自治县，西连广西壮族自治区贺县，东邻连南瑶族自治县，南交怀集县，
+        位于粤、湘、桂三省交界处，又是西江、北江、沱江三江的源头，可谓"三省界、三江源"，
+        在连山您"能闻到湖南的辣椒味、游览桂林的山水、欣赏广东的粤韵"。</string>
+
+    <string name="traffic_title">连山在广东省的位置</string>
+    <string name="traffic_introduce">\t\t\t\t连山交通便利，将于2013年建成通车的二广高速公路经过县城贯穿南北，
+        国道323线东出36公里直通清连高速公路，距离广州260公里。</string>
+
+    <!-- Travel -->
+    <string name="jinzishan">金子山</string>
+    <string name="daxushan">大旭山</string>
+    <string name="yingyangguan">鹰扬关</string>
+    <string name="oujiatitian">欧家梯田</string>
+
+
+    <string name="jinzishan_introduce_one">\t\t\t\t金子山旅游风景区是连山第一个国家3A级旅游风景区，是集三省
+        自驾车游接待基地、登高运动、观光览胜、探险猎奇、度假休闲、生态旅游功能为一身的综合性休闲
+        旅游度假景区。</string>
+    <string name="jinzishan_introduce_two">\t\t\t\t景区有着独特而优美的自然风光，除具有“奇峰、怪石、云海、冰雪、瀑布、古树、
+        日出、晚霞、杜鹃、翠竹”等等原生态的自然景观之外，还有罕见阴阳天体山和大明皇太后李唐妹
+        化身的“皇后峰”。金子山春可看山花烂漫，夏可观日出云海，秋可登高尽揽三省风光，冬可赏罕见
+        雾淞，是您登高揽胜、探险猎奇、避暑养生、休闲度假的绝佳去处。</string>
+
+    <string name="daxushan_introduce">\t\t\t\t大旭山瀑布群风景区内山路连绵，山高林密，野蕉林茂，古藤缠树，
+        瀑布成群，溪水清洌，水似银帘，潭如绿绸，有“广东九寨沟”和“广东西双版纳”的美誉。</string>
+
+    <string name="yingyangguan_introduce">\t\t\t\t鹰扬关景区地处连山西北角，粤湘桂三省(区)交汇处,鹰扬关景区
+        有国务院竖立的“两广”１号界碑，可“一脚踏三省”，能尽览三省边城之风光，吸三省天地之灵气；
+        该关地势险要，历来为兵家必争之地，北宋名将岳飞曾驻守过此关，太平天国洪秀全、石达开曾率兵
+        在此关激战三天三夜并留下了“太平天国古战场与三十六坟”遗址；邓小平领导的红七军于一九三一年
+        一月曾路过此关，并设有战壕、堡垒等。</string>
+
+    <string name="oujiatitian_introduce">\t\t\t\t欧家梯田位于我县大雾山 (1659.3米) 脚下，是广东省规模最大的
+        原生态梯田。总面积近3000亩，规模宏大、气势磅礴，梯田田埂曲线优美如美丽的裙带，随着季节的转换，
+        梯田呈现不同景观，春天银光片片，夏天禾苗叠翠，秋天稻浪涌金，是休闲观光、体验田园生活的好地方，
+    </string>
+
+    <!-- Custom -->
+    <string name="zyh">壮瑶汉三族团结奋进雕塑</string>
+    <string name="yao">过山瑶婚礼</string>
+    <string name="zhuang">壮族婚礼</string>
+    <string name="panwang">盘王节</string>
+    <string name="niuwang">牛王诞</string>
+    <string name="water">壮家戏水节</string>
+    <string name="lion">壮乡舞火狮</string>
+
+    <string name="yao_introduce_one">\t\t\t\t过山瑶婚礼是瑶族古老的传统的婚礼习俗之一，是瑶族先民们世代相传沉积
+        下来的，从每个人到每代人息息相传，从而造就了其独特的文化个性，古老的民族、古老的风俗习惯、
+        古老的语言、古老的服饰都充分地体现出其民族古老的历史文化背景。
+        </string>
+    <string name="yao_introduce_two">\t\t\t\t婚礼过程包括：“相亲，讲亲，送日子，送亲，迎亲—串新娘，接亲—喷“符水”、“圈鸡血”、洗尘，
+        拜堂—拜祖父辈、拜叔伯辈、拜兄姐辈，认亲。</string>
+
+
+    <string name="zhuang_introduce">\t\t\t\t壮族婚礼是连山壮乡最具特色的婚俗之一。主要过程包括：不见面的
+        “恋爱”、浩浩荡荡的迎亲队伍、一比不苟的“开眉”、黑色嫁衣裳、“封典印”、“筛新娘”、
+        “坐时”、“汲新水”、“坐时”、别具一格的闹洞房。</string>
+
+    <string name="panwang_introduce_one">\t\t\t\t农历十月十六日是瑶族最为隆重的节日，瑶族人民信奉“盘王”，
+        把他视为本民族的开山始祖。在瑶族众多的民间节日当中，盘王节是最隆重的传统节日。节日期间，瑶寨歌声阵阵，乐鼓喧天，无论男女老少
+        都身着节日盛装，载歌载舞，热闹非凡。
+瑶族盘王节已被列入中国国家级非物质文化遗产名录。</string>
+    <string name="panwang_introduce_two">\t\t\t\t在瑶族众多的民间节日当中，盘王节是最隆重的传统节日。节日期间，瑶寨歌声阵阵，乐鼓喧天，无论男女老少
+        都身着节日盛装，载歌载舞，热闹非凡。瑶族盘王节已被列入中国国家级非物质文化遗产名录。</string>
+
+    <string name="niuwang_introduce_one">\t\t\t\t连相传壮族先民在打猎中生捕了一头野牛,经驯养后变成家牛,
+        某年四月初八日这头牛生下一头公牛犊,经训教后能犁田耙田并得到繁衍成群,逐步代替了人力
+        拖犁耙之苦,壮族先民为了纪念这头公牛的功德,尊它为牛“始祖”,所以这一天称之为牛王诞。</string>
+
+    <string name="niuwang_introduce_two">\t\t\t\t四月八也成为连山壮族爱护耕牛、维系情谊、广交朋友的节日,
+        并相沿成习,流传至今。当天上午,村里家家户户清理打扫牛栏,到牛栏门口烧香烛、纸钱祭拜牛神,
+        并在牛栏门口插上青枝(柳条)、煮五色饭(以枫叶汁煮黑饭、以黄栀子水煮黄饭、以鸡血藤汁煮红饭等)
+        喂牛吃,祈求耕牛繁衍兴盛。</string>
+
+    <string name="water_introduce_one">\t\t\t\t连山的壮族同胞认为，每年农历七月初七午时前后，天上的银河水会与
+        人间溪河水汇流，这一天河里的水会变得特别干净和神圣，饮用对人体健康十分有益，沐浴，
+        则可消灾除毒、润肤丽体、延年益寿。因此，每逢这天，壮家人不分男女老幼都集聚到河里洗头、沐浴、嬉戏，以祈求健康长寿和平安吉祥。
+       </string>
+
+     <string name="water_introduce_two">\t\t\t\t据说在这一天取水制醋，醋香醇厚经久耐放，故又称“七月香”。千百年来连山壮族都保持这种习俗，
+        并演变为全县欢庆的戏水节。在这一天，不但可亲历祭水祈福、戏水狂欢还可以看到连山各种民间，
+        欣赏壮瑶歌舞，吃到各种特色美食。</string>
+
+    <string name="lion_introduce_one">\t\t\t\t每年元宵节，连山壮乡都举行民间传统习俗活动“舞火狮”，用独特的
+        方式庆祝元宵节日。</string>
+    <string name="lion_introduce_two">\t\t\t\t舞火狮是一种原始、粗犷罕见的民间传统艺术，它集观赏性、趣味性和愉悦性于一体。舞狮的村民赤膊上阵，
+        在场周围的民众将“火狮”围成一圈，随意也将点燃炮竹投向火狮。
+</string>
+    <string name="lion_introduce_three">\t\t\t\t狮人凭借着过硬的本领与团结协作（换人）的精神，任凭四面八方密集的炮竹投掷来，毫无惧色，尽管“狮身”
+        会给炸得破破烂烂，舞狮人汗流浃背却安然无恙，直到在场观众将所有炮竹投掷完为止。</string>
+
+    <!-- Cate -->
+    <string name="aici_one">No.1 艾糍</string>
+    <string name="aici_1">\t\t\t\t三月三清明前后，嫩艾初出，采其鲜蕊煮水清浸后，榨水斩碎，和糯粉参搓均匀
+        后掐成比乒乓球略大的圆糍。</string>
+    <string name="aici_2">\t\t\t\t艾糍为绿色，带有艾的芳香味，也保持糯米的特点，常吃健胃，老少咸宜。艾糍是壮乡的传统制作，
+        也常用来祭奉先人。</string>
+
+    <string name="datangci_one">No.2 大汤糍</string>
+    <string name="datangci">\t\t\t\t连山汤糍是连山人民过节的必备食品，它滑而不粘，皮薄馅香。用现磨（碾）
+        的糯米粉，包入咸馅或甜馅。</string>
+
+    <string name="baici_one">No.3 白糍</string>
+    <string name="baici">\t\t\t\t舂白糍是壮家人过年时的一种习俗，舂白糍时会请上邻居亲友帮忙，各显能耐，
+        充满节日欢乐气氛。舂白糍寓意着团团圆圆，爱情纯洁。舂白糍已被列清远市非物质文化遗产。</string>
+
+    <string name="hehuayu_one">No.4 禾花鱼</string>
+    <string name="hehuayu">\t\t\t\t连山县的农民有养殖“禾花鱼”的传统，每当稻田插秧后，农民就会随之把鲤鱼苗
+        放入稻田里养殖，每到金秋十月，便收获一条条的“禾花鱼”。</string>
+
+    <string name="wusefan_one">No.5 五色糯米饭</string>
+    <string name="wusefan">\t\t\t\t四月八牛王诞时做，又叫花米饭或青精米饭，象征着吉祥如意，是壮族人民喜爱的
+        食品之一。它是用糯米泡在枫叶汁、紫蓝草汁（壮语叫“棵斩”）、红草汁（壮语叫“棵些”）、黄花汁
+        （壮语叫“花迈”）里分别染成黑色、紫色、红色、黄色，加上本色（即白色）蒸制而成，色香味俱全。</string>
+
+    <string name="muomichuang_one">No.6 猪血糯米灌肠</string>
+    <string name="muomichuang">\t\t\t\t壮话叫“巫帮”。用糯米、花生、五花肉丁、猪血、绿豆及各种香料等混合，
+        灌到洗净的猪大肠内，两端拴紧，用小针在肠上扎数个气孔，再蒸熟，就制作成了猪血糯米灌肠，
+        切片食用色美味佳，风味独特，嫩滑可口，芳香宜人，是待客的佳肴，深连山同胞的喜爱。</string>
+</resources>
