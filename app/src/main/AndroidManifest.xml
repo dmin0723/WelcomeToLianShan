@@ -2,12 +2,27 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="cn.studyjams.s1.sj35.dengmin">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="VD2EepwUYex6GjYLGHSRVLbwGM97PhHE" />
+
         <activity android:name=".LianShanActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -15,13 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".IntroduceActivity">
         </activity>
-        <activity android:name=".TrafficeActivity">
-        </activity>
 
-        <!-- Travel-->
+
+        <!-- Travel -->
         <activity android:name=".travel.TravelActivity">
         </activity>
         <activity android:name=".travel.TravelJinZiShanActivity">
@@ -33,7 +46,7 @@
         <activity android:name=".travel.TravelOuJiaTiTianActivity">
         </activity>
 
-        <!-- Custom-->
+        <!-- Custom -->
         <activity android:name=".custom.CustomActivity">
         </activity>
         <activity android:name=".custom.CustomYaoWedding">
@@ -47,11 +60,16 @@
         <activity android:name=".custom.CustomTheWaterFestivalActivity">
         </activity>
         <activity android:name=".custom.CustomTheFireLionFestivalActivity">
-        </activity>
 
+        </activity>
         <activity android:name=".CateActivity">
         </activity>
         <activity android:name=".AccommodationActivity">
+        </activity>
+
+        <activity android:name=".traffic.TrafficeActivity">
+        </activity>
+        <activity android:name=".traffic.BaiduMapActivity">
         </activity>
 
     </application>

@@ -8,6 +8,8 @@
     <string name="traffic_name">交通指南</string>
     <string name="accommodation_name">住宿指南</string>
     <string name="accommodation">住宿口碑前三的酒店</string>
+    <string name="baidu_map">使用百度地图</string>v
+
 
     <!-- Accomodation -->
     <string name="content">如有疑问，在这里写下，点击复选框，发邮件给我!</string>

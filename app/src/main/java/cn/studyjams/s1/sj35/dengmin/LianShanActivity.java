@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import cn.studyjams.s1.sj35.dengmin.custom.CustomActivity;
+import cn.studyjams.s1.sj35.dengmin.traffic.TrafficeActivity;
 import cn.studyjams.s1.sj35.dengmin.travel.TravelActivity;
 
 public class LianShanActivity extends AppCompatActivity {
