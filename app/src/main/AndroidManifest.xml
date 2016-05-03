@@ -23,17 +23,18 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="VD2EepwUYex6GjYLGHSRVLbwGM97PhHE" />
 
-        <activity android:name=".LianShanActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity android:name=".IntroduceActivity">
         </activity>
-
-
+        <activity android:name=".LianShanActivity">
+        </activity>
         <!-- Travel -->
         <activity android:name=".travel.TravelActivity">
         </activity>

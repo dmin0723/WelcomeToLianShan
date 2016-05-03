@@ -44,12 +44,12 @@
 
         <TextView
             style="@style/MyTitleSize"
-            android:text="@string/baici_one"
+            android:text="@string/niangdoufu_one"
             />
 
         <TextView
             style="@style/MyTextSize"
-            android:text="@string/baici"
+            android:text="@string/niangdoufu"
             />
 
         <ImageView
@@ -58,12 +58,12 @@
 
         <TextView
             style="@style/MyTitleSize"
-            android:text="@string/hehuayu_one"
+            android:text="@string/manyueci_one"
             />
 
         <TextView
             style="@style/MyTextSize"
-            android:text="@string/hehuayu"
+            android:text="@string/manyueci"
             />
 
         <ImageView
@@ -72,12 +72,12 @@
 
         <TextView
             style="@style/MyTitleSize"
-            android:text="@string/wusefan_one"
+            android:text="@string/kourou_one"
             />
 
         <TextView
             style="@style/MyTextSize"
-            android:text="@string/wusefan"
+            android:text="@string/kourou"
             />
 
         <ImageView
@@ -98,6 +98,19 @@
             style="@style/MyImageView"
             android:src="@drawable/cate6"/>
 
+        <TextView
+            style="@style/MyTitleSize"
+            android:text="@string/larou_one"
+        />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/larou"
+        />
+
+        <ImageView
+            style="@style/MyImageView"
+            android:src="@drawable/cate7"/>
 
     </LinearLayout>
 </ScrollView>
