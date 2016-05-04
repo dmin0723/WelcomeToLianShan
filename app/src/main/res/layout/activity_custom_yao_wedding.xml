@@ -11,8 +11,7 @@
 
         <TextView
             style="@style/MyTitleSize"
-            android:text="@string/yao"
-            />
+            android:text="@string/yao"/>
 
         <TextView
             style="@style/MyTextSize"

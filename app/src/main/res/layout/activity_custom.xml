@@ -32,7 +32,7 @@
                 android:id="@+id/zhuang"
                 style="@style/MyItemText"
                 android:onClick="onClick"
-                android:text="@string/zhuang"
+                android:text="@string/huapao"
             />
 
         </LinearLayout>

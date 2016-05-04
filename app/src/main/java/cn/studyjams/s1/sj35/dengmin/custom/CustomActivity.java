@@ -13,72 +13,10 @@ import cn.studyjams.s1.sj35.dengmin.R;
  */
 public class CustomActivity extends AppCompatActivity {
 
-//    private TextView yaoWedding;
-//    private TextView zhuangWedding;
-//    private TextView thePanwangFestival;
-//    private TextView theNiuwangFestival;
-//    private TextView theWaterFestival;
-//    private TextView theFireLionFestival;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom);
-
-//        yaoWedding = (TextView) findViewById(R.id.yao);
-//        zhuangWedding = (TextView) findViewById(R.id.zhuang);
-//        thePanwangFestival = (TextView) findViewById(R.id.panwang);
-//        theNiuwangFestival = (TextView) findViewById(R.id.niuwang);
-//        theWaterFestival = (TextView) findViewById(R.id.water);
-//        theFireLionFestival = (TextView) findViewById(R.id.lion);
-//
-//        yaoWedding.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomYaoWedding.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        zhuangWedding.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomZhuangWedding.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        thePanwangFestival.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomThePanwangFestivalActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        theNiuwangFestival.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomTheNiuwangFestivalActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        theWaterFestival.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomTheWaterFestivalActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        theFireLionFestival.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(CustomActivity.this,CustomTheFireLionFestivalActivity.class);
-//                startActivity(intent);
-//            }
-//        });
     }
 
     //进行进行代码重构
@@ -101,7 +39,7 @@ public class CustomActivity extends AppCompatActivity {
                 intent.setClass(this,CustomYaoWedding.class);
                 break;
             case R.id.zhuang:
-                intent.setClass(this,CustomZhuangWedding.class);
+                intent.setClass(this,CustomSparklerGrabbing.class);
                 break;
         }
         startActivity(intent);

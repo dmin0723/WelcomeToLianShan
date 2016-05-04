@@ -7,11 +7,10 @@
 
     <ImageView
         style="@style/MyImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:src="@drawable/viewer"/>
 
     <LinearLayout
+        android:padding="2dp"
         style="@style/MyLinearLayout">
 
         <TextView
@@ -30,6 +29,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:padding="2dp"
         style="@style/MyLinearLayout">
 
         <TextView

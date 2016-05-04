@@ -15,8 +15,7 @@
 
         <TextView
             style="@style/MyTitleSize"
-            android:text="@string/all_introduce_name"
-            />
+            android:text="@string/all_introduce_name"/>
 
         <TextView
             style="@style/MyTextSize"

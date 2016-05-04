@@ -37,5 +37,7 @@
         <ImageView
             style="@style/MyImageView"
             android:src="@drawable/xsj4"/>
+
     </LinearLayout>
+
 </ScrollView>

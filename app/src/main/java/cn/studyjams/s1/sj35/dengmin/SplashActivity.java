@@ -20,7 +20,7 @@ public class SplashActivity extends Activity {
         background = (ImageView) findViewById(R.id.iv_background);
 
         AlphaAnimation anim = new AlphaAnimation(0.0f,1.0f);
-        anim.setDuration(3000);
+        anim.setDuration(4000);
         anim.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {

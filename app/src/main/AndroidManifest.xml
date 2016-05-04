@@ -19,10 +19,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data
-            android:name="com.baidu.lbsapi.API_KEY"
-            android:value="VD2EepwUYex6GjYLGHSRVLbwGM97PhHE" />
-
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -52,7 +48,7 @@
         </activity>
         <activity android:name=".custom.CustomYaoWedding">
         </activity>
-        <activity android:name=".custom.CustomZhuangWedding">
+        <activity android:name=".custom.CustomSparklerGrabbing">
         </activity>
         <activity android:name=".custom.CustomThePanwangFestivalActivity">
         </activity>
@@ -67,10 +63,7 @@
         </activity>
         <activity android:name=".AccommodationActivity">
         </activity>
-
         <activity android:name=".traffic.TrafficeActivity">
-        </activity>
-        <activity android:name=".traffic.BaiduMapActivity">
         </activity>
 
     </application>

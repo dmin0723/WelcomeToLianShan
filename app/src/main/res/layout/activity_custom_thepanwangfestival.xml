@@ -12,7 +12,6 @@
         <TextView
             style="@style/MyTitleSize"
             android:text="@string/panwang"
-
             />
 
         <TextView
