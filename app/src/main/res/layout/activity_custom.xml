@@ -16,7 +16,7 @@
         <TextView
             style="@style/MyTitleSize"
             android:text="@string/zyh"
-            />
+        />
 
         <LinearLayout
             style="@style/MyLinearLayout">
@@ -24,14 +24,16 @@
             <TextView
                 android:id="@+id/yao"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/yao"
-                />
+            />
 
             <TextView
                 android:id="@+id/zhuang"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/zhuang"
-                />
+            />
 
         </LinearLayout>
 
@@ -41,14 +43,16 @@
             <TextView
                 android:id="@+id/panwang"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/panwang"
-                />
+            />
 
             <TextView
                 android:id="@+id/niuwang"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/niuwang"
-                />
+            />
 
         </LinearLayout>
 
@@ -58,14 +62,16 @@
             <TextView
                 android:id="@+id/water"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/water"
-                />
+            />
 
             <TextView
                 android:id="@+id/lion"
                 style="@style/MyItemText"
+                android:onClick="onClick"
                 android:text="@string/lion"
-                />
+            />
         </LinearLayout>
 
     </LinearLayout>

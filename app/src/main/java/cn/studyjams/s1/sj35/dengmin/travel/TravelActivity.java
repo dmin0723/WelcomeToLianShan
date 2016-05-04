@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
 
 import cn.studyjams.s1.sj35.dengmin.R;
 
@@ -14,51 +13,71 @@ import cn.studyjams.s1.sj35.dengmin.R;
  */
 public class TravelActivity extends AppCompatActivity {
 
-    private TextView jinZiShan;
-    private TextView daXuShan;
-    private TextView yingYangGuan;
-    private TextView ouJiaTiTian;
+//    private TextView jinZiShan;
+//    private TextView daXuShan;
+//    private TextView yingYangGuan;
+//    private TextView ouJiaTiTian;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
 
-        jinZiShan = (TextView) findViewById(R.id.jinzishan);
-        daXuShan = (TextView) findViewById(R.id.daxushan);
-        yingYangGuan = (TextView) findViewById(R.id.yingyangguan);
-        ouJiaTiTian = (TextView) findViewById(R.id.oujiatitian);
+//        jinZiShan = (TextView) findViewById(R.id.jinzishan);
+//        daXuShan = (TextView) findViewById(R.id.daxushan);
+//        yingYangGuan = (TextView) findViewById(R.id.yingyangguan);
+//        ouJiaTiTian = (TextView) findViewById(R.id.oujiatitian);
+//
+//        jinZiShan.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(TravelActivity.this,TravelJinZiShanActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        daXuShan.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(TravelActivity.this,TravelDaXuShanActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        yingYangGuan.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(TravelActivity.this,TravelYingYangGuanActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        ouJiaTiTian.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(TravelActivity.this,TravelOuJiaTiTianActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+    }
 
-        jinZiShan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(TravelActivity.this,TravelJinZiShanActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        daXuShan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(TravelActivity.this,TravelDaXuShanActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        yingYangGuan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(TravelActivity.this,TravelYingYangGuanActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        ouJiaTiTian.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(TravelActivity.this,TravelOuJiaTiTianActivity.class);
-                startActivity(intent);
-            }
-        });
+    //进行代码重构
+    public void onClick(View v){
+        Intent intent = new Intent();
+        switch(v.getId()){
+            case R.id.daxushan:
+                intent.setClass(this,TravelDaXuShanActivity.class);
+                break;
+            case R.id.jinzishan:
+                intent.setClass(this,TravelJinZiShanActivity.class);
+                break;
+            case R.id.oujiatitian:
+                intent.setClass(this,TravelOuJiaTiTianActivity.class);
+                break;
+            case R.id.yingyangguan:
+                intent.setClass(this,TravelYingYangGuanActivity.class);
+                break;
+        }
+        startActivity(intent);
     }
 }

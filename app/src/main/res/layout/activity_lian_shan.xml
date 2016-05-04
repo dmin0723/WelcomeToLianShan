@@ -23,14 +23,16 @@
         <TextView
             android:id="@+id/introduce"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/introduce_name"
-            />
+        />
 
         <TextView
             android:id="@+id/travel"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/travel_name"
-            />
+        />
 
     </LinearLayout>
 
@@ -40,13 +42,15 @@
         <TextView
             android:id="@+id/custom"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/custom_name"/>
 
         <TextView
             android:id="@+id/cate"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/cate_name"
-            />
+        />
 
     </LinearLayout>
 
@@ -56,14 +60,16 @@
         <TextView
             android:id="@+id/traffic"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/traffic_name"
-            />
+        />
 
         <TextView
             android:id="@+id/accommodation"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/accommodation_name"
-            />
+        />
 
     </LinearLayout>
 

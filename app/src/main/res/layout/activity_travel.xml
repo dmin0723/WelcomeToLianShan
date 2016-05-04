@@ -17,14 +17,16 @@
         <TextView
             android:id="@+id/jinzishan"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/jinzishan"
-            />
+        />
 
         <TextView
             android:id="@+id/daxushan"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/daxushan"
-            />
+        />
     </LinearLayout>
 
     <LinearLayout
@@ -33,14 +35,16 @@
         <TextView
             android:id="@+id/yingyangguan"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/yingyangguan"
-            />
+        />
 
         <TextView
             android:id="@+id/oujiatitian"
             style="@style/MyItemText"
+            android:onClick="onClick"
             android:text="@string/oujiatitian"
-            />
+        />
 
     </LinearLayout>
 
